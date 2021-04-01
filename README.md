@@ -11,7 +11,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  dart_inversion_of_control: ^1.0.0
+  dart_inversion_of_control: ^1.0.1
 ```
 
 You can install packages from the command line:
