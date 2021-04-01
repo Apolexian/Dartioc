@@ -3,6 +3,23 @@
 A simple library to facilitate inversion of control in dart. Supports registering multiple
 container instances that hold bindings to dependencies. Bindings can be declared as singletons.
 
+You can find the package at: https://pub.dev/packages/dart_inversion_of_control
+
+## Installing
+
+Add this to your package's pubspec.yaml file:
+
+```yaml
+dependencies:
+  dart_inversion_of_control: ^1.0.0
+```
+
+You can install packages from the command line:
+
+```shell
+dart pub get
+```
+
 ## Usage
 
 A simple usage example:
