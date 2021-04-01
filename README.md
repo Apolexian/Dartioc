@@ -47,7 +47,7 @@ void main() {
 
   // register a singleton
   Container('user').register(User, () => Bob(), singleton: true);
-  Container('user').locate(User).printAge(); // Alice
+  Container('user').locate(User).printAge(); // 20
 }
 
 class User {
