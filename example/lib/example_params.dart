@@ -1,4 +1,4 @@
-import 'package:dartioc/dartioc.dart';
+import 'package:dart_inversion_of_control/dartioc.dart';
 
 void main() {
   Container('user').register(User, () => User('Generic'));
